@@ -9,9 +9,11 @@ numero_secreto = 42
 
 totalTentativas = 3
 rodada = 1
+#funcao .formart {rodada} de {totalTentaivas} baseada na string 
 
+#operador menor ou igual
 while( rodada <= totalTentativas ):
-    print("Tentativas", rodada, "de", totalTentativas)
+    print("Tentativas {} de {}".format( rodada, totalTentativas))
 
     #interação com o usuário
     chute_str = input("digite o seu número:  \n")
@@ -28,7 +30,7 @@ while( rodada <= totalTentativas ):
         print("você acertou!")
 
 
-    #adicionando novas oportunidas ao usuário
+    #adicionando novas tentativas ao usuário
 
 
 
