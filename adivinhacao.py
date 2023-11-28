@@ -12,7 +12,7 @@ for rodada in range(1, totalTentativas +1 ):
     print("Tentativas {} de {}".format(rodada, totalTentativas))
 
     #interação com o usuário
-    chute_str = input("digite o seu número de 1 a 100:  \n")
+    chute_str = input("digite o seu número de 1 a 100: ")
 
     #incluindo um texto 
     print("Você digitou", chute_str)

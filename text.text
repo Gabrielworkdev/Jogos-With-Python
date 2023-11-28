@@ -26,3 +26,14 @@ resposta(
 10
 
 )
+
+########################### random 
+
+é necessário realizar a importacao 
+import random 
+
+exemplo 
+numero_random = random.random() * 100
+#declara que a resposta sera em número inteiro 
+int(numero_random)
+
