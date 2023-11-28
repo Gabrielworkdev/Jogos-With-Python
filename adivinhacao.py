@@ -3,6 +3,7 @@ print ("JOGO DE ADIVINHAÇÃO \n\n")
 print("********************************* \n")
 #declarando o número secreto
 numero_secreto = 42
+numero_maior = 100
 totalTentativas = 3
 rodada = 1
 #funcao .formart {rodada} de {totalTentaivas} baseada na string 
@@ -22,6 +23,7 @@ for rodada in range(1, totalTentativas +1 ):
     acertou = chute == numero_secreto
     maior = chute < numero_secreto
     menor = chute > numero_secreto
+    media = chute > numero_maior
 
     
     
@@ -33,6 +35,8 @@ for rodada in range(1, totalTentativas +1 ):
     else :
         if(maior):
             print("VocÊ errou ! O seu chute foi maior do que o número secreto ")
+        if(media):
+            print("O número que digitou é maior do que o permitido, tente novamente!")
         elif (menor):
             print("VocÊ errou ! O seu chute foi menor do que o número secreto ")
     print("")
