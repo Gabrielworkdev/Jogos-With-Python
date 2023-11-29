@@ -24,8 +24,6 @@ for rodada in range(1, totalTentativas +1 ):
     maior = chute < numero_secreto
     menor = chute > numero_secreto
     media = chute > numero_maior
-
-    
     
     #comparando o valor digitado com o nº secreto "=="
     if (acertou):
