@@ -1,11 +1,33 @@
+import random
+
 print("*********************************\n")
 print ("JOGO DE ADIVINHAÇÃO \n\n")
 print("********************************* \n")
 #declarando o número secreto
-numero_secreto = 42
+
+#numero_secreto = 42
+
+#aplicando o random para gerar um numero aleatório em toda rodada
+numero_secreto = random.randrange(1,100)
+
 numero_maior = 100
 totalTentativas = 3
-rodada = 1
+
+print("Qual é o nível de dificuldade ?\n")
+print("(1) Fácil (2) Médio (3) Difícil \n") 
+
+nível = int(input("Defina o nível: "))
+
+#condicao para tentativas de acordo com o nível escolhido
+if (nível ==1):
+    totalTentativas = 20
+elif (nível == 2):
+    totalTentativas = 10
+else: 
+    totalTentativas = 5
+
+
+
 #funcao .formart {rodada} de {totalTentaivas} baseada na string 
 for rodada in range(1, totalTentativas +1 ):
 
