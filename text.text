@@ -43,3 +43,9 @@ O ideal seria que pudéssemos definir um intervalo, dizer que queremos que o nú
 Vamos, passando o intervalo que queremos para a função randrange(), lembrando que como queremos que o número gerado esteja entre 1 e 100 (inclusive), precisamos passar o número 101 como segundo parâmetro para a função:
 #A abs
 abs ()função retorna o valor absoluto do número especificado.
+
+
+##### funcao
+def nome_da_funcao():
+    # todo o código identado faz parte da função
+    print("aprendendo funções")
