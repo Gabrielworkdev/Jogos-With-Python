@@ -1,7 +1,7 @@
 import random
 
 print("*********************************\n")
-print ("JOGO DE ADIVINHAÇÃO \n\n")
+print ("**** JOGO DE ADIVINHAÇÃO **** \n\n")
 print("********************************* \n")
 #declarando o número secreto
 
