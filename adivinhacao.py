@@ -1,20 +1,20 @@
 import random
-
-print("*********************************\n")
-print ("**** JOGO DE ADIVINHAÇÃO **** \n\n")
-print("********************************* \n")
-#declarando o número secreto
-
-#numero_secreto = 42
-#criando funcao 
 def jogarAdvinhacao():
+    print("*********************************\n")
+    print ("**** JOGO DE ADIVINHAÇÃO **** \n\n")
+    print("********************************* \n")
+    #declarando o número secreto
+
+    #numero_secreto = 42
+    #criando funcao 
+
     #aplicando o random para gerar um numero aleatório em toda rodada
     numero_secreto = random.randrange(1,101)
 
     numero_maior = 101
     totalTentativas = 0
     pontos = 1000
-    print(numero_secreto)
+   # print(numero_secreto)
 
     print("Qual é o nível de dificuldade ?\n")
     print("(1) Fácil (2) Médio (3) Difícil \n") 
@@ -62,3 +62,6 @@ def jogarAdvinhacao():
         print("")
         print("")
     print("Fim do Jogo!")
+
+if(__name__ == "__main__"): #verificando se a variavel possui valor especial
+    jogarAdvinhacao()
