@@ -53,3 +53,11 @@ def nome_da_funcao():
 
 def soma(a, b):
      return a + b
+
+
+### CLASSE
+.upper = DEIXA AS LETRAS EM CAIXA ALTA
+.STRIO = RETIRA O ESPACO DO INICIO E FINAL
+.CAPITALIZE = PÕE A PRIMEIRA LETRA MAIÚSCULA
+.append = adicionar valor 
+.clear = apagar 
