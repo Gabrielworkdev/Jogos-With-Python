@@ -61,3 +61,18 @@ def soma(a, b):
 .CAPITALIZE = PÕE A PRIMEIRA LETRA MAIÚSCULA
 .append = adicionar valor 
 .clear = apagar 
+
+
+##### LISTA ----- >>>>>> dias = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
+
+####     TUPLAS  --- >>> dias = ("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado")
+
+
+dias.append("") adiciona algo no final da lista
+dias.pop() retira item adicionado
+type(dias) - verifica qual é o tipo de variavel string, list, tupla etc
+
+
+#Deletar um elemento em um índice específico com ###del(lista[indice])
+Remover elementos no fim da lista com lista.pop(), retornará o elemento removido
+Remover um elemento específico com lista.remove(elemento) - Busca pelo elemento e remove ele - Se o elemento ocorre múltiplas vezes na lista, remove a primeira ocorrência - Se o elemento não estiver presente na lista, ocorrerá um erro
