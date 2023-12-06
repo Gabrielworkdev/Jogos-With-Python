@@ -4,6 +4,16 @@ def jogarForca():
     print ("*** BEM VINDO AO JOGO DE FORCA ***\n")
     print("********************************* \n")
 
+    arquivo = open("palavras.txt", "r") #selecionando a palavra aleatoriamente
+    palavras = []
+    for linha in arquivo:
+        linha = linha.strip()
+        palavras.append(linha)
+        
+
+    arquivo.close()
+    print(palavras)
+
     palavra_secreta = "banana".upper()#fixando a palavra como caixa alta
     letra_acertada = [] #onde os acertos entram
     
