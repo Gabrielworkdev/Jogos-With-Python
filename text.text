@@ -76,3 +76,9 @@ type(dias) - verifica qual é o tipo de variavel string, list, tupla etc
 #Deletar um elemento em um índice específico com ###del(lista[indice])
 Remover elementos no fim da lista com lista.pop(), retornará o elemento removido
 Remover um elemento específico com lista.remove(elemento) - Busca pelo elemento e remove ele - Se o elemento ocorre múltiplas vezes na lista, remove a primeira ocorrência - Se o elemento não estiver presente na lista, ocorrerá um erro
+
+
+.open = abrir aquivo 
+.open("nome arquivos""funcao") = arquivo ler ou escrever no arquivo
+arquivo.read () = ler o arquivo
+arquivo.close
