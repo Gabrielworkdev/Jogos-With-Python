@@ -19,6 +19,6 @@ def escolheJogo():
         adivinhacao.jogarAdvinhacao()
 
 
-    print("Fim do Jogo!")
+#print("Fim do Jogo!")
 if (__name__ == "__main__"):
     escolheJogo()
