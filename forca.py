@@ -1,4 +1,4 @@
-
+import random
 def jogarForca():
     print("*********************************\n")
     print ("*** BEM VINDO AO JOGO DE FORCA ***\n")
@@ -12,9 +12,11 @@ def jogarForca():
         
 
     arquivo.close()
-    print(palavras)
+    
+    numero = random.randrange(0,len(palavras))
+    palavra_secreta = palavras[numero].upper()
 
-    palavra_secreta = "banana".upper()#fixando a palavra como caixa alta
+    #palavra_secreta = "banana".upper()#fixando a palavra como caixa alta
     letra_acertada = [] #onde os acertos entram
     
     for letra in palavra_secreta: #FOR PARA AUTO INCRIMENTO DOS ESPAÇOS DE ACORDO COM O CHUTE
@@ -23,7 +25,7 @@ def jogarForca():
     enforcou = False # variavel booleana - RETORNA FALSO OU VERDADEIRA 
     acertou = False
     erros = 0 #tentativas
-
+    #print(letra_acertada)
     #enquanto n se enforcouo E n acertou - segue o jogo
     while(not enforcou and not acertou): #palavras chave no python sempre se usa em letras minúscula
         
