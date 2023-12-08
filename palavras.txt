@@ -2,3 +2,7 @@ banana
 melancia
 morango
 abacaxi
+pera
+kwi
+mamao
+abacate
