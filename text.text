@@ -82,3 +82,7 @@ Remover um elemento específico com lista.remove(elemento) - Busca pelo elemento
 .open("nome arquivos""funcao") = arquivo ler ou escrever no arquivo
 arquivo.read () = ler o arquivo
 arquivo.close
+
+
+
+#organizando funcao

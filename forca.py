@@ -1,8 +1,12 @@
 import random
+
+
+print("*********************************\n")
+print ("*** BEM VINDO AO JOGO DE FORCA ***\n")
+print("********************************* \n")
+    
 def jogarForca():
-    print("*********************************\n")
-    print ("*** BEM VINDO AO JOGO DE FORCA ***\n")
-    print("********************************* \n")
+    
 
     arquivo = open("palavras.txt", "r") #selecionando a palavra aleatoriamente
     palavras = []
